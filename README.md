@@ -1,8 +1,8 @@
-# Mind-sage Version 4
+# Mind-sage Version 3
 
 **Student wellbeing experiences tailored by educational stage, with a guardian-led assessment for primary-school children.**
 
-## NEW: Watch & Learn video library (curated final V4)
+## NEW: Watch & Learn video library (curated final V3)
 
 A complete dedicated `Watch & Learn` page was added at **`#/videos`**. You can reach it from the navigation sidebar, a new homepage feature panel, the student dashboard, and Bro-minD Plus.
 
@@ -14,7 +14,7 @@ A complete dedicated `Watch & Learn` page was added at **`#/videos`**. You can r
 - Available in English and Bengali.
 - Existing **18 Swamiji Vani**, **200 core stage-specific questions**, guardian-led forms, PDF reports, mood diary and V3 interactive modules are preserved.
 
-### Updating an existing V4 repository
+### Updating an existing V3 repository
 
 Upload or replace all files from the final ZIP in the GitHub repository root; do not leave older versions of `app.js`, `index.html`, `sw.js` or the new `video-library.*` out. If the old offline version persists after publishing, close and reopen the installed web app, or clear its site cache and reload; the service-worker cache name has changed to force an update.
 
@@ -29,7 +29,7 @@ Upload or replace all files from the final ZIP in the GitHub repository root; do
 7. Return to Vani and verify all 18 quotes are still present.
 8. Check mobile responsiveness and the primary guardian pathway again.
 
-## Main changes from V3
+## Main changes from V2
 
 - Retains the V3 interface, Emotion Landscape, Mind Garden, Life Journey, private journal, wellbeing plans, insights, Mind Map, Bro-minD, the rule-based companion and support directory.
 - Uses the supplied peaceful sunset/student image in the home hero, with a newly illustrated family photography panel beside the learning-stage selector. The Vivekananda illustration in the Vani section is retained.
@@ -41,7 +41,7 @@ Upload or replace all files from the final ZIP in the GitHub repository root; do
 - Keeps answers private by default. Under-18 diary entries stay in memory for the session; adults may explicitly save information on this device. V4 uses separate browser storage keys from V3; it does not silently import V3 data.
 - PWA assets, cache version, manifest and relative image paths updated for GitHub Pages.
 
-## Publish on GitHub Pages (recommended: separate V4 repository)
+## Publish on GitHub Pages (recommended: separate V3 repository)
 
 1. Unzip `Mind-sage-Version-4-GitHub-Pages.zip` onto your computer.
 2. Create a public repository named `MIND-SageV4` under your GitHub account.
