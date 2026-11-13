@@ -1,0 +1,33 @@
+/* Mind-sage V4: refined photographic storytelling + guardian-led intake. */
+.v3-hero{background:linear-gradient(110deg,#103936 0%,#194a46 72%,#345d52 100%);}
+.v3-hero-illustration{background-image:linear-gradient(100deg,rgba(20,61,58,.12),rgba(20,61,58,.0)),url('./student-calm-sunset.webp');background-position:center center;background-size:cover;box-shadow:inset 24px 0 42px rgba(14,47,42,.18)}
+.v3-hero-illustration>*{display:none!important}
+.v3-hero-illustration:after{content:'A MOMENT TO RECONNECT';position:absolute;bottom:22px;right:25px;color:#fff;letter-spacing:2.1px;font:800 10px Manrope,sans-serif;text-shadow:0 2px 7px rgba(0,0,0,.7);}
+.v3-hero-copy{z-index:2}
+.v3-hero .v3-hero-trust{align-items:flex-start;line-height:1.7}
+.level-card:first-child{border-color:#aac5b4;background:linear-gradient(145deg,#ffffff,#edf6ed)}
+.level-card:first-child:before{content:'GUARDIAN LED';position:absolute;top:11px;right:13px;font-size:8px;font-weight:900;letter-spacing:1px;color:#2c715d;background:#e0f0e4;padding:5px 7px;border-radius:6px}
+.v4-brow{display:inline-flex;font:800 10px Manrope,sans-serif;letter-spacing:1.65px;color:#34846a;text-transform:uppercase}
+.v4-guardian-head{border-radius:18px;padding:23px 24px;background:#edf5ed;border:1px solid #d5e6d8;margin:0 0 25px;}
+.v4-guardian-head h2{font:750 23px/1.3 Manrope,sans-serif;letter-spacing:-.8px;margin:12px 0}
+.v4-guardian-head p{font-size:12px;line-height:1.85;color:#587366;margin:0}
+.v4-guardian-fields{display:grid;gap:18px;margin:25px 0 8px;padding:20px;border-radius:18px;background:#fbfdfb;border:1px solid #dbe9df}
+.v4-checkline{display:flex;align-items:flex-start;gap:12px;color:#456457;font-size:12px;line-height:1.75;font-weight:650;cursor:pointer}
+.v4-checkline input{width:19px;height:19px;accent-color:#1b6556;flex:none;margin:3px 0 0}
+.v4-soft-note{display:flex;gap:10px;align-items:flex-start;background:#eef5ed;border-left:3px solid #5e957d;border-radius:11px;padding:13px;font-size:11px;line-height:1.7;color:#47685a}
+.v4-soft-note svg{flex:none;color:#37765e}
+.v4-guardian-page{background:linear-gradient(95deg,#f0f6ea,#f9f6ed);padding:19px 23px;border-radius:17px;border:1px solid #dce8d8;margin:20px auto 12px;max-width:1000px;color:#325d4e}
+.v4-guardian-page strong{display:block;font:800 16px Manrope,sans-serif}
+.v4-guardian-page p{font-size:12px;line-height:1.75;margin:9px 0 0;color:#678274}
+.v4-guardian-reminder{font-size:11px;color:#4f7a68;background:#eef5ee;border:1px solid #dce9dd;padding:13px;border-radius:12px;display:flex;gap:10px;align-items:flex-start;line-height:1.7;margin:0 0 17px}
+.v4-guardian-reminder svg{flex:none}
+.v4-observer-panel{margin:20px 0;padding:24px 30px;border:1px solid #dbe8d8;background:#eff6eb;border-radius:19px}
+.v4-observer-panel h2{margin:10px 0;font:750 21px Manrope,sans-serif;color:#1b5046;letter-spacing:-.5px}
+.v4-observer-panel p{font-size:12px;line-height:1.9;color:#587365;max-width:870px}
+.v4-observer-panel p:last-child{margin-bottom:0}
+@media(max-width:760px){.v3-hero-copy{padding-bottom:25px}.v3-hero-illustration{min-height:260px;background-position:50% 35%}.v3-hero-illustration:after{bottom:15px;right:16px;font-size:8px}.v4-guardian-head,.v4-observer-panel{padding:20px}.v4-guardian-head h2{font-size:20px}}
+@media print{.v4-observer-panel{break-inside:avoid}.v3-hero-illustration{display:none!important}}
+
+.v4-family-banner{display:grid;grid-template-columns:1.08fr .92fr;align-items:center;min-height:190px;gap:18px;border:1px solid #d7e7d8;background:#edf5ee;border-radius:21px;overflow:hidden;margin:14px 0 23px}
+.v4-family-banner>div{padding:25px 29px}.v4-family-banner h3{font:750 clamp(18px,2vw,26px)/1.25 Manrope,sans-serif;margin:11px 0;letter-spacing:-.65px;color:#1b4a42}.v4-family-banner p{font-size:12px;line-height:1.75;color:#5f786b;max-width:580px;margin:0}.v4-family-banner img{width:100%;height:100%;max-height:220px;object-fit:cover;object-position:center;display:block}
+@media(max-width:760px){.v4-family-banner{grid-template-columns:1fr}.v4-family-banner>div{padding:23px 23px 0}.v4-family-banner img{height:175px}}
